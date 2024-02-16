@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  /* font - Jost */
+  font-family: "Inter", sans-serif;
+  /* basic resets */
+  margin: 0;
+  outline: 0;
+  border: 0;
+  padding: 0;
+  text-decoration: none;
+  /* font-size: 18px; */
+  /* font-weight: 400; */
+  line-height: 140%;
+  box-sizing: border-box;
+}
+
+/* changed password DOTS styling */
+input[type="password"] {
+  letter-spacing: 0.125em;
+  font-weight: 700;
+}
+button {
+  cursor: pointer;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Inter, "sans-serif";
+}

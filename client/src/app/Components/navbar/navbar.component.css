@@ -1,0 +1,137 @@
+.nav {
+  background: #3170ac;
+  padding: 10px 144px 10px 144px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 0px 3px 21px 0px rgba(8, 9, 46, 0.15);
+  overflow: hidden;
+}
+
+.combinator {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 5px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.job-hunter-website-favicon-color-1 {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+.job-hunter {
+  color: #ffffff;
+  text-align: left;
+  font: 700 28px "Inter", sans-serif;
+  position: relative;
+}
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.frame-1 {
+  background: #f2f8fe;
+  border-radius: 35px;
+  padding: 12px 18px 12px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 320px;
+  position: relative;
+  overflow: hidden;
+}
+.search {
+  color: rgba(11, 40, 68, 0.63);
+  text-align: left;
+  font: 400 14px "Inter", sans-serif;
+  position: relative;
+}
+.frame-2 {
+  background: #f2f8fe;
+  border-radius: 82px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 48px;
+  position: relative;
+}
+.material-symbols-search {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.btn-login {
+  background: #f2f8fe;
+  border-radius: 8px;
+  padding: 12px 24px 12px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  cursor: pointer;
+  margin: 10px;
+}
+.log-in {
+  color: #0b2844;
+  text-align: left;
+  font: 500 16px "Inter", sans-serif;
+  position: relative;
+}
+
+.vv {
+  justify-content: space-between !important;
+}
+
+.nav-items {
+  display: flex;
+  gap: 12px;
+  font-size: 18px;
+  color: #ffffffd8;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}

@@ -1,0 +1,36 @@
+<div class="body-login">
+    <div class="background">
+      <div class="shape"></div>
+      <div class="shape"></div>
+    </div>
+    <form [formGroup]="myForm!">
+      <a [href]="''"><img src="../../../assets/job-hunter-low-resolution-logo-color-on-transparent-background.png" width="100"/></a>
+      <h3>Create Account</h3>
+  
+       
+      <input type="text" placeholder="Name" id="username" formControlName="name" />
+      <input type="text" placeholder="Email" id="username"  formControlName="email"/>
+    
+      <div *ngIf="myForm.get('email')?.invalid && (myForm.get('email')?.dirty || myForm.get('email')?.touched)">
+        <small class="text-danger">Enter a valid email</small>
+      </div>
+
+      <input type="password" placeholder="Password" id="password" formControlName="password"/>
+      
+      <div *ngIf="myForm.get('password')?.invalid && (myForm.get('password')?.dirty || myForm.get('password')?.touched)">
+        <small class="text-danger">password should contain atleast <b>One number</b>, <b>One special character</b> and length should between <b>6-16</b></small>
+      </div>
+      
+      <input type="password" placeholder="Conform Password" id="conformpassword" formControlName="conformpassword"/>
+      <input type="text" placeholder="Company Name" formControlName="companyName" id="companyname" />
+      <input type="text" placeholder="Position" formControlName="position" id="position" />
+  
+      <button (click)="registerRecruiter()">Sign Up</button>
+      <div class="social">
+        <!-- <div class="go"><i class="fab fa-google"></i>  Google</div> -->
+        <div class="fb">
+          Already have an Account <a routerLink="/l">Sign In</a></div>
+      </div>
+    </form>
+  </div>
+  

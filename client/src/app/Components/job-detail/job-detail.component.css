@@ -1,0 +1,348 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Great+Vibes&family=Libre+Baskerville&family=Tangerine&family=Varela+Round&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+  .desktop-2,
+.desktop-2 * {
+  box-sizing: border-box;
+}
+.desktop-2 {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.frame-3 {
+  padding: 64px 0px 64px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.job-description {
+  color: #000000;
+  text-align: center;
+  font: 300 64px/119.52% "Inter", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-16 {
+  padding: 24px 144px 24px 144px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.frame-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-7 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-5 {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.job-title {
+  color: #000000;
+  text-align: center;
+  font: 300 32px/119.52% "Inter", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.job-title>span>b{
+  font: 700 15px/114.52% 'Inter', sans-serif;
+}
+
+.lastDate > b{
+  font: 700 15px/114.52% 'Lexend Deca', sans-serif;
+}
+.location {
+  color: #000000;
+  /* text-align: center; */
+  font: 700 15px/114.52% "Lexend Deca", sans-serif;
+  position: relative;
+  width: 131px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.location > b{
+  font: 700 15px/114.52% 'Lexend Deca', sans-serif;
+}
+
+.frame-8 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.job-description2 {
+  color: #000000;
+  text-align: center;
+  font: 400 15px/114.52% "Lexend Deca", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.description {
+  color: #000000;
+  text-align: left;
+  font: 400 15px/114.52% "Lexend Deca", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: 'Lexend Deca', sans-serif;
+}
+.frame-15 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-14 {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-9 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.skills-required {
+  color: #000000;
+  text-align: left;
+  font: 400 15px/114.52% "Lexend Deca", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.skills {
+  color: #000000;
+  text-align: left;
+  font: 700 15px/114.52% "Lexend Deca", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-10 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.experience-needed {
+  color: #000000;
+  text-align: left;
+  font: 400 15px/114.52% "Lexend Deca", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.exp {
+  color: #000000;
+  text-align: left;
+  font: 700 15px/114.52% "Lexend Deca", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-11 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.salary-offered {
+  color: #000000;
+  text-align: left;
+  font: 400 15px/114.52% "Lexend Deca", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.package {
+  color: #000000;
+  text-align: left;
+  font: 700 15px/114.52% "Lexend Deca", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-12 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.apply-link {
+  color: #000000;
+  text-align: left;
+  font: 400 15px/114.52% "Lexend Deca", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.applink {
+  color: #000000;
+  text-align: left;
+  font: 700 15px/114.52% "Lexend Deca", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-13 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.tags {
+  color: #000000;
+  text-align: left;
+  font: 400 15px/114.52% "Lexend Deca", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.posted {
+  color: #000000;
+  text-align: left;
+  font: 200 15px/114.52% "Lexend Deca", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+.back,
+.back * {
+  box-sizing: border-box;
+}
+.back {
+  color: #3170ac;
+  text-align: left;
+  font: 300 15px/80.52% "Inter", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  left: -28%;
+  padding: 10px;
+  background-color: #e5f2ff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tagsButton{
+  padding: 0px 5px;
+  margin: 0px 5px;
+  background-color: #d6ebff;
+}
+
+button{
+  background-color: #3170ac;
+  align-content: center;
+  shape-margin: 5px;
+  padding: 16px;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+}

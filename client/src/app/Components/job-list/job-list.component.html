@@ -1,0 +1,26 @@
+<app-navbar></app-navbar>
+<div class="dashboard">
+    <div class="dashboard-head" *ngIf="role==='Recruiter'">
+        <h1>Posted Jobs</h1>
+        <a class="btn-addjob" [routerLink]="'/addjob'">+ Add Job</a>
+    </div>
+    <div class="dashboard-head" *ngIf="role==='Job Seeker'">
+        <h1>Applied Jobs</h1>
+        
+    </div>
+
+    <div class="jobContainer">
+        <div class="jobs" *ngIf="role==='Recruiter'">
+        <app-job-list-item [jobList]="recruiter.jobList"></app-job-list-item>
+            
+        </div>
+        <div class="jobs" *ngIf="role==='Job Seeker'">
+        <app-job-list-item [jobList]="jobseeker.jobList"></app-job-list-item>
+            
+        </div>
+    </div>
+
+    <!-- <div class="empty">
+  <h1>Not found!</h1>
+</div> -->
+</div>

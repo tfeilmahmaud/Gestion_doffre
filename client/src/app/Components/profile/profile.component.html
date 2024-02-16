@@ -1,0 +1,14 @@
+<app-navbar></app-navbar>
+<div class="dashboard">
+    <div class="dashboard-head">
+        <h1>Profile</h1>
+        <!-- <a class="btn-addjob" [href]="'/addjob'">Edit Profile</a> -->
+    </div>
+    <div class="jobContainer">
+        <div class="jobs">
+    
+            <app-jsprofile *ngIf="menuType==='jsProfile'"></app-jsprofile>
+            <app-rprofile *ngIf="menuType==='rProfile'"></app-rprofile>
+        </div>
+    </div>
+</div>

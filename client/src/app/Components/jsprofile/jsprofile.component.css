@@ -1,0 +1,158 @@
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftdiv{
+    background-color: rgb(222, 247, 247);
+    width: 100vw;
+    height: 60vh;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    font-style: italic;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.greetings h3{
+    text-align: left;
+}
+
+h1{
+    font-size: xxx-large;
+    padding: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.rightdiv{
+    background-color:rgb(49,112,172);
+    color: aliceblue;
+    font-weight: bold;
+    width: 100vw;
+    height: 60vh;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    font-family: 'Libre Baskerville', serif;
+    margin-left: 5px;
+}
+
+
+.detailsList{
+    width: 100%;
+    padding: 12px;
+}
+
+.detailsList span{
+    display: flex;
+    /* padding-top: 12px; */
+}
+
+.listItem {
+    margin-top: 0px;
+    padding: 12px;
+    border: 1px solid #0000002b !important;
+    border-radius: 4px;
+    background-color: rgba(215, 52, 93, 0.07);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    max-height: 92px;
+    overflow-y: auto;
+  }
+
+  .itemValue, .itemValue>span {
+    display: flex;
+    width: max-content;
+    flex-wrap: 1;
+    border: 1px solid #0000002b;
+    padding: 4px 8px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    font-size: x-large;
+    overflow-x: auto;
+  }
+
+ .listItem{
+    display: flex;
+    justify-content: space-between;
+    /* align-content: center; */
+    
+ }
+
+ .listItem h3{
+    font-size: x-large;
+    font-family: 'Libre Baskerville', serif;
+ }
+
+ .itemValue{
+    max-width: 500px;
+ }
+ .show-skills {
+    margin-top: 8px;
+    padding: 12px;
+    border: 1px solid #0000002b !important;
+    border-radius: 4px;
+    background-color: rgba(215, 52, 93, 0.07);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    max-height: 92px;
+    overflow-y: auto;
+  }
+  
+  .show-skills > span {
+    display: flex;
+    width: max-content;
+    flex-wrap: 1;
+    border: 1px solid #0000002b;
+    padding: 4px 8px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .itemValue::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  .itemValue::-webkit-scrollbar-track {
+    background: rgb(49,112,172);        /* color of the tracking area */
+  }
+  
+  .itemValue::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(49,112,172);  /* creates padding around scroll thumb */
+  }
+
+  .listItem::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  .listItem::-webkit-scrollbar-track {
+    background: rgb(49,112,172);        /* color of the tracking area */
+  }
+  
+  .listItem::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(49,112,172);  /* creates padding around scroll thumb */
+  }
+
+  .pass{
+   
+    background-color: transparent !important; 
+    font-size: 20px;
+    color: aliceblue;
+    
+  }

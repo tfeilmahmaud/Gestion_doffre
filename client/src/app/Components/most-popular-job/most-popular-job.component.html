@@ -1,0 +1,30 @@
+<div class="transactions">
+  <div class="title">Sorted By Most Popular Jobs</div>
+  <div class="transaction-wrapper">
+    <div class="transaction" *ngFor="let i of jobs">
+      <div class="icon">
+        <!-- <img [src]="transaction.imgSrc" alt="" /> -->
+        <fa-icon [icon]="faBriefcase"></fa-icon>
+      </div>
+      <div class="title">
+        <div>{{i.title}}</div>
+        <div>{{i.jobSeekerList.length}}</div>
+      </div>
+      <!-- <div class="price">{{ transaction.price }}</div>
+      <div class="shop-location">
+        <div class="shop">{{ transaction.shop }}</div>
+        <div class="location">{{ transaction.location }}</div>
+      </div>
+      <div
+        class="status"
+        [ngClass]="{
+          confirmed: transaction.status === 'confirmed',
+          pending: transaction.status === 'pending',
+          shipped: transaction.status === 'shipped'
+        }"
+      >
+        {{ transaction.status }}
+      </div> -->
+    </div>
+  </div>
+</div>
